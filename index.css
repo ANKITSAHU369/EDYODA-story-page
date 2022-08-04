@@ -1,0 +1,169 @@
+
+
+
+body{
+margin: 0;
+font-size: 16px;
+font-family: 'Raleway',sans-serif;
+
+}
+.flex-container{
+    background-color: #fff;
+    width: 100%;
+    height: 80px;
+    padding: 16px 78px;
+    top: 0;
+    left: 0;
+    display: flex;
+    box-sizing: border-box;
+    background-color:#fff;
+    box-shadow: 0 1px 1px #ccc;
+    position: fixed;
+
+}
+#LogoOne {
+    font-size: 32px;
+    width: 130px;
+    color: #0084ff;
+    font-family:'Raleway', sans-serif;
+    font-weight: 900;
+    line-height: 1;
+}
+#LogoTwo {
+    margin: 0;
+    font-weight: 500;
+    font-style: italic;
+    font-family:'Raleway', sans-serif;
+    font-size: 18px;
+    color: #000;
+}
+#exp{
+    font-family:'Raleway', sans-serif;
+    margin-left:  110px;
+    border: 1px solid transparent;
+    margin-left:70px;
+    margin-top: 13px;
+
+  }
+  .opt{
+    font-family:'Raleway', sans-serif;
+    color:#000 ;
+  }
+
+
+
+
+
+
+
+
+
+
+
+.HomepageContainer {
+    padding: 50px 150px;
+    background-color: #f2f6ff;
+}
+
+.TrendingPostHeading {
+    font-family:'Raleway', sans-serif;
+    margin-top: 70px;
+    font-weight: 600;
+  
+    color: #000;
+}
+.FilterSection {
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding-top: 16px;
+}
+.FilterIconContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.FilterText {
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 8px;
+}
+.CategoryList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.CategoryItem {
+    padding: 6px 14px;
+    width: auto;
+    font-size: 14px;
+    border-radius: 15px;
+    border: 1px solid #0084ff;
+    margin: 5px;
+    cursor: pointer;
+    color: #0084ff;
+}
+.CategoryItem:hover{
+    background-color: #0084ff;
+    color: #fff;
+}
+
+
+
+
+.CardStyle{
+    display: inline-flex;
+    box-sizing: border-box;
+}
+.card{
+    margin-left: auto;
+    margin-right: auto;
+    width: 33.3%;
+
+}
+.carddetail{
+   /* width: 33.3%; */
+   margin: 25px 25px;
+   border: 0.5px solid gray;
+   border-radius: 5px;
+   box-shadow: 0 0 4px;
+}
+.photoclassone{
+   margin: 0;
+   width: 100%;
+
+}
+.photoclasstwo{
+   width:100%;
+   height: 176px;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   box-shadow: 2px 2px 5px 0.4px;
+}
+.writingone{
+   padding: 10px 24px;
+  
+   
+}
+.writingtwo{
+   font-family:'Raleway', sans-serif;
+ 
+   
+}
+.writingthree{
+   font-family:'Raleway', sans-serif;
+   text-decoration: none;
+   font-style: italic;
+   
+}
+.writingfour{
+   font-family:'Raleway', sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 1.43;
+   margin: 4px 0;
+   color: rgba(0,0,0,0.6);
+}
+footer{
+    background-color: #172146;
+    padding: 80px 16%;
+}
